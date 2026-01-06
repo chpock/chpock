@@ -12,5 +12,5 @@ Do you want to know more about me? Check out my [LinkedIn Profile](https://www.l
 ### A quick display about my GitHub Activity
 <p align='center'>
     <img height=150 title="Konstantin's GitHub stats" src="https://github-readme-stats-fast.vercel.app/api?username=chpock&show_icons=true&theme=transparent&count_private=true"/>
-    <img height=150 title="Konstantin's Top Langs" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=chpock&layout=compact"/>
+    <img height=150 title="Konstantin's Top Langs" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=chpock&theme=transparent&layout=compact"/>
 </p>
