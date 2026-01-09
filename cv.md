@@ -16,23 +16,43 @@ header:
 
 ## Skills
 
-**Programming Languages:** Shell scripting, Bash, C, C++, Tcl/Tk, Java Script, Python, Power Shell, Perl
+**Cloud Platforms:** Amazon Web Services (AWS), Google Cloud Platform (GCP)
 
-**Clouds/Containers/VMs:** Docker, Kubernetes, Docker Compose, Helm charts, Terraform, Amazon Web Services, Google Cloud Platform, vagrant, VMware Workstation, VirtualBox
+**CI/CD:** Jenkins, ArgoCD, Atlassian Bamboo, CloudBees CD/RO, GitHub Actions, TeamCity
+
+**Observability & Logging:** OpenTelemetry, Thanos, Prometheus, Grafana, Loki, Grafana Alloy, ELK Stack
+
+**Containers & Orchestration:** Kubernetes, Helm charts, Docker, Docker Compose, Portainer
+
+**Infrastructure as Code:** AWS CloudFormation, Terraform, GitOps
+
+**Workflow Orchestration:** Apache Airflow, Argo Workflows
+
+**Programming Languages:** Bash, Groovy, C, C++, Python, Go, Java Script, Tcl/Tk
 
 **Operating Systems:** Linux, Windows, macOS
 
-**CI/CD:** Jenkins, CloudBees CD/RO, GitHub Actions, TeamCity
+**Databases:** ClickHouse, MySQL/MariaDB, PostgreSQL, Oracle, SQLite
 
-**Monitoring/Logging:** Prometheus, Grafana
-
-**Databases:** ELK Stack, MySQL/MariaDB, PostgreSQL, Oracle, SQLite
-
-**Other:** Installers and installations, InstallJammer, Kerberos SSO, VCS (Git/Perforce/SVN), Network protocols, Reverse engineering, Security
+**Tools & Methodologies:** Security best practices, Installers and installations, VMware Workstation, VirtualBox, vagrant, VCS (Git/Perforce), JIRA, Bazel, Conan
 
 **Languages:** English (proficient), Russian (native), Ukrainian (native), German (elementary)
 
 ## Experience
+
+**Senior DevOps Engineer**
+  ~ Envista Holdings Corporation
+  ~ 11/2024 - Present
+
+**Project:** Cloud-to-Factory Automation Ecosystem. Architected a distributed system integrating AWS cloud with physical manufacturing lines for global medical device production.
+
+- Designed and implemented a comprehensive Cloud-to-Factory automation ecosystem from the ground up, supporting mission-critical production lines across 6 international sites (USA, Mexico, China, Czech Republic).
+- Provisioned and managed scalable AWS EKS clusters and cloud resources using CloudFormation, ensuring fully reproducible and version-controlled environments.
+- Engineered a robust deployment strategy leveraging Jenkins for automated builds (Docker/Helm) and ArgoCD for GitOps-based delivery to Kubernetes.
+- Developed a custom framework to automate software lifecycle management and updates for standalone virtual machines located at remote manufacturing facilities worldwide.
+- Architected a multi-tier monitoring system aggregating metrics and logs from remote factory sites into a centralized AWS EKS hub using Prometheus, Thanos, and Loki.
+- Implemented an OpenTelemetry + ClickHouse pipeline for advanced structured log analysis and centralized visualization via Grafana.
+- Established automated testing workflows using isolated staging environments to validate service stability before rolling out to production factory floors.
 
 **Senior Software Engineer**
   ~ CloudBees Inc.
@@ -40,16 +60,12 @@ header:
 
 **Project:** CloudBees CD/RO ([https://docs.cloudbees.com/docs/cloudbees-cd/latest/](https://docs.cloudbees.com/docs/cloudbees-cd/latest/)) automates and orchestrates software releases, pipelines, and deployments.
 
-- Maintain on-premises development environments (Linux/Windows/Solaris/macOS/HP-UX/AIX) and cloud environments (AWS/GCP) for development, testing and demonstration purposes
-- Maintain CI/CD processes
-- Design, provide and maintain docker containers (Windows/Linux) for individual application services
-- Design, provide and maintain helm charts for deploying application services in a Kubernetes cluster
-- Initial analysis and response to application component security issues
-- Design, provide and maintain a special pre-configured demo distribution delivered as images (VirtualBox/VMware/AWS Marketplace/Microsoft Azure Marketplace) and docker containers
-- Provide builds and updates for open source components and libraries, resolve configuration changes and backward incompatibilities.
-- Port open source components and libraries between different platforms (AIX/Linux/macOS)
-- Develop cross-platform installer used for packaging applications and software updates
-- Troubleshoot application compatibility issues with different platforms/operating systems and third-party dependencies
+- Maintained on-premises development environments (Linux/Windows/Solaris/macOS/HP-UX/AIX) and cloud environments (AWS/GCP) for development, testing and demonstration purposes
+- Maintained CI/CD processes
+- Architected and maintained production-grade Helm charts and Docker images, enabling the transition of legacy services to modern containerized orchestration.
+- Acted as a primary responder for software supply chain security, patching third-party component vulnerabilities and triaging code-level security issues to specialized engineering teams.
+- Ported and maintained critical open-source libraries across disparate architectures (Linux/Windows/macOS/AIX), resolving deep-seated compatibility issues and backward-incompatibility challenges.
+- Engineered and maintained a complex, multi-platform installer providing full UI/UX parity (GUI and CLI) across Windows, Linux, and macOS, ensuring a consistent deployment experience for enterprise customers.
 
 **Installer Developer**
   ~ Electric Cloud, Inc.
@@ -57,19 +73,21 @@ header:
 
 **Project:** ElectricFlow® is an enterprise-grade DevOps Release Automation platform that simplifies provisioning, building, and releasing multi-tiered applications. Its model-driven approach to managing environments and applications lets teams coordinate multiple pipelines and releases across hybrid infrastructure in an efficient, predictable, and auditable way.
 
-- Develop cross-platform installer used for packaging applications and software updates
-- Work on design, implementation and testing of the installer
-- Consult documentation team on installation guides
-- Research and development of prototypes of modern technologies for installers
+- Engineered a robust, unified installation framework designed to package and deploy multi-tiered enterprise applications across diverse OS environments (Windows/Linux/macOS).
+- Managed the complete lifecycle of the installation subsystem, from architectural design and feature implementation to rigorous cross-platform validation and regression testing.
+- Spearheaded research and prototyping of next-generation packaging technologies, evaluating modern alternatives to enhance the efficiency and reliability of the platform's delivery mechanism.
+- Served as the Subject Matter Expert (SME) for the technical documentation team, defining the standards for installation guides and complex deployment workflows.
+- Developed and maintained the software update logic, ensuring data integrity and backward compatibility during version migrations for high-availability enterprise clusters.
 
 **DBA, System Administrator**
   ~ Department of National Police
   ~ 12/2007 - 10/2016
 
-- Develop an application for statistical data analysis using Tcl/Tk GUI
-- Develop an applications for creating reports (MS Office documents/XML/text formats)
-- Develop an applications for big-data analysis
-- Maintain and administer servers for internal services (e-mail/RDBMS/VPN etc.)
+- Engineered high-performance desktop applications using Tcl/Tk for complex statistical data analysis and visualization, facilitating data-driven decision-making for law enforcement.
+- Designed and implemented automated data-extraction tools to generate mission-critical reports in multiple formats (XML, MS Office, Plain Text), streamlining administrative workflows.
+- Developed specialized applications for mining and analyzing large-scale datasets, focusing on identifying patterns and trends within national-level databases.
+- Administered high-security internal services, including RDBMS (Relational Databases), secure VPN gateways, and mail servers, ensuring 24/7 availability and data integrity.
+- Optimized server maintenance tasks through advanced shell scripting, reducing manual overhead and improving the reliability of internal network services.
 
 ## Education
 
@@ -83,20 +101,20 @@ Technical specialist of Radio Engineering, Radioelectronic Devices and Communica
 
 ## Open-source side projects
 
-[~P1]: **tclmtls** [https://github.com/chpock/tclmtls](https://github.com/chpock/tclmtls)
+[~P1]: **arch-updater** [https://github.com/chpock/arch-updater](https://github.com/chpock/arch-updater)
+
+    A granular update utility for Arch Linux designed for power users who demand full control and transparency over package upgrades.
+
+    **Technology Stack:** Shell, Linux
+
+[~P2]: **tclmtls** [https://github.com/chpock/tclmtls](https://github.com/chpock/tclmtls)
 
     Package to provide SSL/TLS layer support for network connections in Tcl.
 
     **Technology Stack:** C, Tcl, mbedTLS, cryptography
 
-[~P2]: **cookfs** [https://github.com/chpock/cookfs](https://github.com/chpock/cookfs)
+[~P3]: **cookfs** [https://github.com/chpock/cookfs](https://github.com/chpock/cookfs)
 
     Tcl virtual filesystem using a compressed archive format to allow embedding multiple files in an archive.
 
     **Technology Stack:** C, Tcl
-
-[~P2]: **FarTcl** [https://github.com/chpock/FarTcl](https://github.com/chpock/FarTcl)
-
-    Plugin for Far Manager 3 that exposes Tcl interpreter for internal editor
-
-    **Technology Stack:** C, C++, Tcl
