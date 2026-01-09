@@ -4,7 +4,7 @@ I am a software engineer specializing in DevOps/infrastructure automation.
 
 I am currently actively looking for a new job as DevOps Engineer, Infrastructure Automation Engineer or Software Engineer.
 
-Do you have any offers or want to know more about me? Check out my [CV](https://github.com/chpock/chpock/blob/main/CV%20Konstantin%20Kushnir.pdf) or [LinkedIn Profile](https://www.linkedin.com/in/kku/).
+Do you have any offers or want to know more about me? Check out my [CV](https://raw.githubusercontent.com/chpock/chpock/main/CV%20Konstantin%20Kushnir.pdf) or [LinkedIn Profile](https://www.linkedin.com/in/kku/).
 <!--
 Do you want to know more about me? Check out my [LinkedIn Profile](https://www.linkedin.com/in/kku/).
 -->
