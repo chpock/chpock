@@ -1,18 +1,28 @@
 ---
-name: Konstantin Kushnir
+name: Kostiantyn Kushnir
 header:
   - text: |
       <span style="font-size: 1.2em; font-weight: bold;">Senior DevOps Engineer | Infrastructure Automation | Software Developer</span>
-  - text: <span class="iconify" data-icon="tabler:mail"></span> konstantin.kushnir@hotmail.com
-    link: mailto:konstantin.kushnir@hotmail.com
+  - text: <span class="iconify" data-icon="tabler:mail"></span> kostiantyn.kushnir@outlook.com
+    link: mailto:kostiantyn.kushnir@outlook.com
     newLine: true
-  - text: <span class="iconify" data-icon="tabler:brand-github"></span> github.com/chpock
-    link: https://github.com/chpock
   - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> linkedin.com/in/kku
     link: https://linkedin.com/in/kku
+  - text: <span class="iconify" data-icon="tabler:brand-github"></span> github.com/chpock
+    link: https://github.com/chpock
   - text: <span class="iconify" data-icon="tabler:brand-telegram"></span> kchpock
     link: https://t.me/kchpock
 ---
+
+<!--
+    URL: https://ohmycv.app
+
+    Font size: 15 (default)
+    Margings (top/bottom): 30
+    Margings (left/right): 45 (default)
+    Paragraph spacing: 3
+    Line spacing: 1.35
+-->
 
 ## Skills
 
